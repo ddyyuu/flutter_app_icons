@@ -18,17 +18,7 @@ android {
     defaultConfig {
         minSdkVersion 16
         compileSdk 31
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
 
-        multiDexEnabled true
-    }
-    lintOptions {
-        disable 'InvalidPackage'
-    }
     namespace 'com.example.flutter_app_icons'
-}
-
-dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'androidx.appcompat:appcompat:1.0.0'
 }
